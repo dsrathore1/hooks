@@ -10,7 +10,6 @@ const useState = () => {
                 <title>Use State</title>
             </Helmet>
             <h1 className="homePageContainer">Use State</h1>
-
         </>
     )
 }
