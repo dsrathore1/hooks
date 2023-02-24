@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0c0c21;
+    color: white;
+}
+
+::selection {
+    background: #9370DBFF;
+    color: #fff;
+}
+
+.homePageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.btn {
+    padding: .6rem 1.2rem;
+    margin: 0 2rem;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 4px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background: transparent;
+
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+.resetBtn {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.countValue {
+    padding: .6rem 1.2rem;
+    margin: 0 2rem;
+    color: #6495EDFF;
+    font-size: 5rem;
+}
+
+
+.navMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 1rem;
+    background: #fff;
+}
+
+.link {
+    text-decoration: none;
+    padding-left: 2rem;
+    margin-left: 1rem;
+    transition: all 0.3s ease-in-out;
+}
