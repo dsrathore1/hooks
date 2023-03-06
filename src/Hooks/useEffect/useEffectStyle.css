@@ -1,0 +1,12 @@
+.effectHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.ueSpan{
+    color: #9370DBFF;
+    margin-left: 12px;
+    font-size: 3rem;
+}
