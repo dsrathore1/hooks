@@ -1,0 +1,60 @@
+.mainFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.useStateMainContainer {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+    border-radius: 4px;
+}
+
+.ip:focus{
+    border: 3px solid mediumpurple;
+}
+
+.formTitle {
+    text-transform: uppercase;
+    font-family: Rockwell, serif;
+    letter-spacing: 2px;
+}
+
+.ip {
+    margin: 1.5rem 0;
+    padding: 1rem .5rem;
+    width: 20vw;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    outline: none;
+    color: #fff;
+}
+
+.ip:focus {
+    background: #fff;
+    color: #000;
+}
+
+.formBtn {
+    border-radius: 4px;
+    background: #9370db;
+    padding: 1rem .5rem;
+    width: 20vw;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: 14px;
+}
+
+.textValue {
+    margin-top: 2rem;
+}
