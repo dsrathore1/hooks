@@ -13,14 +13,14 @@ const Home = () => {
         <>
             <div className="homePageContainer">
                 <div className="container">
-                    <button className="addBtn btn" onClick={() => {
-                        setCount(count + 1)
-                    }}>+
-                    </button>
-                    <h1 className="countValue">{count}</h1>
                     <button className="minusBtn btn" onClick={() => {
                         count === 0 ? setCount(0) : setCount(count - 1);
                     }}>-
+                    </button>
+                    <h1 className="countValue">{count}</h1>
+                    <button className="addBtn btn" onClick={() => {
+                        setCount(count + 1)
+                    }}>+
                     </button>
                 </div>
                 <button className="resetBtn btn" onClick={() => {
