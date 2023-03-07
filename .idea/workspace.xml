@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abcd4a4-616b-4d6b-b038-5e67b8b74ed6" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/hooks.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/useContextStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useContext/useContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useContext/useContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useState/useStateStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useState/useStateStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/hooks.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hooks.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +65,7 @@
       <workItem from="1677423898606" duration="3612000" />
       <workItem from="1677487366571" duration="291000" />
       <workItem from="1678066810896" duration="17000" />
-      <workItem from="1678075051096" duration="12042000" />
+      <workItem from="1678075051096" duration="12314000" />
     </task>
     <task id="LOCAL-00001" summary="Home">
       <created>1678088064834</created>
