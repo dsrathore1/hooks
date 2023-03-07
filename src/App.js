@@ -16,7 +16,7 @@ function App() {
         <Router>
             <Nav/>
             <Routes>
-                <Route path="/dsrathore1.github.io" element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/useState" element={<UseStatePage/>}/>
                 <Route path="/useEffect" element={<UseEffectPage/>}/>
                 <Route path="/useContext" element={<UseContextPage/>}/>

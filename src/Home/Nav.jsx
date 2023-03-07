@@ -9,7 +9,7 @@ const Nav = () => {
             </div>
             <div className="navRightColumn">
                 <ol className="navLinks">
-                    <li><NavLink className="link link1" to="/dsrathore1.github.io"
+                    <li><NavLink className="link link1" to="/"
                                  style={({isActive}) => ({color: isActive ? "mediumPurple" : "white"})}> Home < /NavLink>
                     </li>
                     <li><NavLink className="link link2" to="/useState"
