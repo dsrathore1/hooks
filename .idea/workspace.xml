@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abcd4a4-616b-4d6b-b038-5e67b8b74ed6" name="Changes" comment="workspace" />
+    <list default="true" id="0abcd4a4-616b-4d6b-b038-5e67b8b74ed6" name="Changes" comment="workspace">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -63,7 +68,7 @@
       <workItem from="1677423898606" duration="3612000" />
       <workItem from="1677487366571" duration="291000" />
       <workItem from="1678066810896" duration="17000" />
-      <workItem from="1678075051096" duration="13998000" />
+      <workItem from="1678075051096" duration="15032000" />
     </task>
     <task id="LOCAL-00001" summary="Home">
       <created>1678088064834</created>
