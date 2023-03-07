@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abcd4a4-616b-4d6b-b038-5e67b8b74ed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useEffect/useEffectStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useState/useStateStyle.css" afterDir="false" />
+    <list default="true" id="0abcd4a4-616b-4d6b-b038-5e67b8b74ed6" name="Changes" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/hooks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/useContextStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useEffect/useEffect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useEffect/useEffect.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useState/useState.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useState/useState.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useContext/useContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useContext/useContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useState/useStateStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useState/useStateStyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/Work/hooks-redux&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/Work/hooks-redux",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,8 +73,51 @@
       <workItem from="1677423898606" duration="3612000" />
       <workItem from="1677487366571" duration="291000" />
       <workItem from="1678066810896" duration="17000" />
-      <workItem from="1678075051096" duration="5835000" />
+      <workItem from="1678075051096" duration="12042000" />
     </task>
+    <task id="LOCAL-00001" summary="Home">
+      <created>1678088064834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678088064834</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Use Effect Hook">
+      <created>1678088120628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678088120628</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Use Effect Hook Style">
+      <created>1678088136365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678088136365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Use State Hook Style">
+      <created>1678088146978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678088146978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Use State Hook Style">
+      <created>1678088157678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678088157678</updated>
+    </task>
+    <task id="LOCAL-00006" summary="workspace">
+      <created>1678088170190</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678088170190</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +133,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Home" />
+    <MESSAGE value="Use Effect Hook" />
+    <MESSAGE value="Use Effect Hook Style" />
+    <MESSAGE value="Use State Hook Style" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>

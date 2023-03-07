@@ -1,0 +1,13 @@
+name: Hooks Actions
+run-name: Action is going ON
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      steps:
+        - uses: actions/checkout@v3
+        - uses: actions/setup-node@v3
+          with:
+            node-version: ${{matrix.node}}
+          name: Your react hooks ready to go

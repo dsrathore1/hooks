@@ -6,6 +6,10 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ::selection {
     background: #9370DBFF;
     color: #fff;
@@ -48,7 +52,7 @@
     font-size: 1rem;
 }
 
-.countValue {
+.counter {
     padding: .6rem 1.2rem;
     margin: 0 2rem;
     color: #6495EDFF;

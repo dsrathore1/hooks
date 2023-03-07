@@ -1,7 +1,7 @@
 import React from "react";
 import {Helmet} from "react-helmet";
 
-const useContext = () => {
+const useContextPage = () => {
     return (
         <>
             <Helmet>
@@ -12,4 +12,4 @@ const useContext = () => {
     );
 }
 
-export default useContext;
+export default useContextPage;
