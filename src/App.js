@@ -16,12 +16,12 @@ function App() {
         <Router>
             <Nav/>
             <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/useState" element={<UseStatePage/>}/>
-                <Route path="/useEffect" element={<UseEffectPage/>}/>
-                <Route path="/useContext" element={<UseContextPage/>}/>
-                <Route path="/useMemo" element={<UseMemoPage/>}/>
-                <Route path="/props" element={<Props/>}/>
+                <Route path="/Hooks/" element={<Home/>}/>
+                <Route path="/Hooks/useState" element={<UseStatePage/>}/>
+                <Route path="/Hooks/useEffect" element={<UseEffectPage/>}/>
+                <Route path="/Hooks/useContext" element={<UseContextPage/>}/>
+                <Route path="/Hooks/useMemo" element={<UseMemoPage/>}/>
+                <Route path="/Hooks/props" element={<Props/>}/>
             </Routes>
         </Router>
     </div>);
