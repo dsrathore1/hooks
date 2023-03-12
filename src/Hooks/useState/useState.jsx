@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../../App.css';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import '../useState/useStateStyle.css';
 
 const useStatePage = () => {
@@ -16,7 +16,7 @@ const useStatePage = () => {
         const value = e.target.value;
 
         setForm((prev) => {
-            return {...prev, [name]: value};
+            return { ...prev, [name]: value };
         });
     };
 
@@ -29,14 +29,14 @@ const useStatePage = () => {
                 <form className="useStateMainContainer">
                     <h1 className="formTitle">Register</h1>
                     <input className="usernameInput ip" type="text" placeholder="Username" name="username"
-                           value={form.username} onChange={handleInput} required/>
+                        value={form.username} onChange={handleInput} required />
                     <input className="emailInput ip" type="email" placeholder="Email" name="email" value={form.email}
-                           onChange={handleInput} required/>
+                        onChange={handleInput} required />
                     <input className="numInput ip" type="number" placeholder="Mobile Number" name="mobileNumber"
-                           value={form.mobileNumber} onChange={handleInput}
-                           pattern="^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$" required/>
+                        value={form.mobileNumber} onChange={handleInput}
+                        pattern="^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$" required />
                     <input className="passwordInput ip" type="password" placeholder="Password" name="password"
-                           value={form.password} onChange={handleInput} required/>
+                        value={form.password} onChange={handleInput} required />
                     <button className="formBtn" type="submit">Submit</button>
                 </form>
                 <p className="textValue">My name is {form.username}, my email id {form.email} and mobile

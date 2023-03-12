@@ -9,7 +9,7 @@ const Nav = () => {
             </div>
             <div className="navRightColumn">
                 <ol className="navLinks">
-                    <li><NavLink className="link link1" to="/Hooks"
+                    <li><NavLink className="link link1" to="/"
                         style={({ isActive }) => ({ color: isActive ? "mediumPurple" : "white" })}> Home </NavLink>
                     </li>
                     <li><NavLink className="link link2" to="/useState"
@@ -24,8 +24,8 @@ const Nav = () => {
                     <li><NavLink className="link link5" to="/useMemo"
                         style={({ isActive }) => ({ color: isActive ? "mediumPurple" : "white" })}>Use
                         Memo</NavLink></li>
-                    <li><NavLink className="link link6" to="/props"
-                        style={({ isActive }) => ({ color: isActive ? "mediumPurple" : "white" })}>Props</NavLink>
+                    <li><NavLink className="link link6" to="/useNavigate"
+                        style={({ isActive }) => ({ color: isActive ? "mediumPurple" : "white" })}>Use Navigate</NavLink>
                     </li>
                 </ol>
             </div>
