@@ -1,0 +1,16 @@
+.navigateInput {
+    padding: 1rem .5rem;
+    width: 40%;
+    background: #fff;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: large;
+}
+
+.navigateForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}

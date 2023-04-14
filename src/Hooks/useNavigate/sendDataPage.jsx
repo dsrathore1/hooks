@@ -1,17 +1,15 @@
-import {useNavigate} from "react-router-dom";
+import {useNavigate, useLocation} from "react-router-dom";
 
 const SendDataPage = () => {
-    const id = 3;
-    const navigate = useNavigate();
 
-    function pageChange() {
-        navigate("/useNavigate", {state: {id: id}});
-    }
+    const navigate = useNavigate();
+    const location = useLocation();
+
 
     return (<>
         <div className="mainContainer">
-            <button className="changeBtn" onClick={pageChange}>Change
-            </button>
+            <h1 className="homePageContainer">Hello my name is {location.state.name}</h1>
+            <button className="changeBtn" onClick={() => navigate("/useNavigate")}>Go Back</button>
         </div>
     </>);
 }

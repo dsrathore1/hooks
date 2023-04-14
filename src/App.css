@@ -55,7 +55,7 @@ html {
 .counter {
     padding: .6rem 1.2rem;
     margin: 0 2rem;
-    color: #6495EDFF;
+    color: #9370DB;
     font-size: 5rem;
 }
 
@@ -80,4 +80,33 @@ html {
     padding-left: 2rem;
     margin-left: 1rem;
     transition: all 0.3s ease-in-out;
+}
+
+
+.startBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #9370DB;
+}
+
+.startBtn {
+    padding: 1rem 3rem;
+    background: #9370DB;
+    box-shadow: 12px 12px 52px #7b5eb8,
+    -12px -12px 52px #ab82fe;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: x-large;
+    font-family: cursive;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.startBtn:active {
+    background: #9370DB;
+    box-shadow: inset 12px 12px 52px #7b5eb8,
+    inset -12px -12px 52px #ab82fe;
 }

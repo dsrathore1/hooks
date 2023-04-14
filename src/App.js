@@ -11,6 +11,7 @@ import UseContextPage from "./Hooks/useContext/useContext.jsx";
 import UseMemoPage from "./Hooks/useMemo/useMemo.jsx";
 import UseNavigatePage from "./Hooks/useNavigate/UseNavigate";
 import SendDataPage from "./Hooks/useNavigate/sendDataPage";
+import StartPage from "../src/Home/Start.jsx";
 
 function App() {
     return (
@@ -18,7 +19,8 @@ function App() {
             <Router>
                 <Nav/>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
+                    <Route path="/" element={<StartPage/>}/>
+                    <Route path="/home" element={<Home/>}/>
                     <Route path="/useState" element={<UseStatePage/>}/>
                     <Route path="/useEffect" element={<UseEffectPage/>}/>
                     <Route path="/useContext" element={<UseContextPage/>}/>

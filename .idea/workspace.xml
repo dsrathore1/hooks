@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abcd4a4-616b-4d6b-b038-5e67b8b74ed6" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/ChildC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/noteContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/UseNavigate.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/sendDataPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Start.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/useNavigateStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useContext/useContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useContext/useContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useContext/useContextStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useContext/useContextStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useState/useState.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useState/useState.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useNavigate/UseNavigate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/UseNavigate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useNavigate/sendDataPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/sendDataPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +24,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,7 +86,13 @@
       <workItem from="1678551341900" duration="22000" />
       <workItem from="1678551392462" duration="2619000" />
       <workItem from="1678594268633" duration="4946000" />
-      <workItem from="1678599796154" duration="1459000" />
+      <workItem from="1678599796154" duration="2134000" />
+      <workItem from="1678770271826" duration="1108000" />
+      <workItem from="1678813409411" duration="691000" />
+      <workItem from="1679067963044" duration="4262000" />
+      <workItem from="1679149297673" duration="542000" />
+      <workItem from="1679188094673" duration="6000" />
+      <workItem from="1681459624540" duration="3313000" />
     </task>
     <task id="LOCAL-00001" summary="Home">
       <created>1678088064834</created>
