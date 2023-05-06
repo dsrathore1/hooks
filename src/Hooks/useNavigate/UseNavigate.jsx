@@ -26,8 +26,8 @@ const UseNavigatePage = () => {
                 <input className="navigateInput" name="name" placeholder="INPUT" value={name} type="text"
                     onChange={(e) => setName(e.target.value)} />
             </form>
-            <button className="changeBtn" type="submit" onClick={sendData}>Change</button>
-            <h1>Hello my name is :- {name}</h1>
+            <button className="changeBtn" type="submit" onClick={sendData}>Send Data</button>
+            <h1>Hello my name is :- <span style={{textTransform:"uppercase"}}>{name}</span></h1>
         </div>
     </>);
 }

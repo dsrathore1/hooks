@@ -8,7 +8,8 @@ const SendDataPage = () => {
 
     return (<>
         <div className="mainContainer">
-            <h1 className="homePageContainer">Hello my name is {location.state.name}</h1>
+            <h1 className="homePageContainer">Hello my name is <span
+                style={{textTransform: "capitalize", marginLeft: ".5rem"}}>{location.state.name}</span></h1>
             <button className="changeBtn" onClick={() => navigate("/useNavigate")}>Go Back</button>
         </div>
     </>);

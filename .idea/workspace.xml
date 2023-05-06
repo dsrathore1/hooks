@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abcd4a4-616b-4d6b-b038-5e67b8b74ed6" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/src/Home/Start.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/useNavigateStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/A.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/B.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/C.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/ContextStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hooks/useContext/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Start.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useContext/ChildC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useContext/noteContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useContext/useContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useContext/useContextStyle.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hooks/useNavigate/UseNavigate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/UseNavigate.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hooks/useNavigate/sendDataPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/sendDataPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useNavigate/useNavigateStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useNavigate/useNavigateStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useState/useState.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useState/useState.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hooks/useState/useStateStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useState/useStateStyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="package.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -92,7 +104,8 @@
       <workItem from="1679067963044" duration="4262000" />
       <workItem from="1679149297673" duration="542000" />
       <workItem from="1679188094673" duration="6000" />
-      <workItem from="1681459624540" duration="3313000" />
+      <workItem from="1681459624540" duration="6607000" />
+      <workItem from="1683366676941" duration="4102000" />
     </task>
     <task id="LOCAL-00001" summary="Home">
       <created>1678088064834</created>

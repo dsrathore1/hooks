@@ -1,21 +1,17 @@
 import React from "react";
-import {NavLink, useLocation} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const Nav = () => {
-    const location = useLocation();
-
-    if (location.pathname === "/") {
-        return null;
-    }
 
     return (<>
         <div className="navMainContainer">
             <div className="navLeftColumn">
-                <h1 className="navTitle">Hooks</h1>
+                <h1 className="navTitle" style={{textTransform: "uppercase"}}><span style={{color: "#9370d8"}}>Ho</span>oks
+                </h1>
             </div>
             <div className="navRightColumn">
                 <ol className="navLinks">
-                    <li><NavLink className="link link1" to="/home"
+                    <li><NavLink className="link link1" to="/"
                                  style={({isActive}) => ({color: isActive ? "mediumPurple" : "white"})}> Home </NavLink>
                     </li>
                     <li><NavLink className="link link2" to="/useState"

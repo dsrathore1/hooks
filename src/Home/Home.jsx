@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import "../App.css";
 import CountUp from "react-countup";
+import {motion} from "framer-motion";
 
 
 const Home = () => {
@@ -12,7 +13,12 @@ const Home = () => {
 
     return (
         <>
-            <div className="homePageContainer">
+            <motion.div
+                initial={{opacity: 0, scaleX: 0}}
+                animate={{opacity: 1, scaleX: 1}}
+                exit={{opacity: 0, scaleX: 0}}
+
+                className="homePageContainer">
                 <div className="container">
                     <button className="minusBtn btn" onClick={() => {
                         count === 0 ? setCount(0) : setCount(count - 2);
@@ -29,7 +35,7 @@ const Home = () => {
                     setCount(0);
                 }}>Reset
                 </button>
-            </div>
+            </motion.div>
         </>
     );
 }

@@ -32,7 +32,7 @@
     width: 20vw;
     border: 1px solid #fff;
     border-radius: 2px;
-    font-size: 16px;
+    font-size: 12px;
     outline: none;
     color: #fff;
 }
@@ -49,6 +49,8 @@
     width: 20vw;
     font-size: 16px;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 ::placeholder {
