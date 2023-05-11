@@ -11,8 +11,8 @@ const Nav = () => {
             </div>
             <div className="navRightColumn">
                 <ol className="navLinks">
-                    <li><NavLink className="link link1" to="/"
-                                 style={({isActive}) => ({color: isActive ? "mediumPurple" : "white"})}> Home </NavLink>
+                    <li className="linkk"><NavLink className="link link1" to="/"
+                                                   style={({isActive}) => ({color: isActive ? "mediumPurple" : "white"})}> Home </NavLink>
                     </li>
                     <li><NavLink className="link link2" to="/useState"
                                  style={({isActive}) => ({color: isActive ? "mediumPurple" : "white"})}>Use
@@ -30,8 +30,13 @@ const Nav = () => {
                                  style={({isActive}) => ({color: isActive ? "mediumPurple" : "white"})}>Use
                         Navigate</NavLink>
                     </li>
+                    <li><NavLink className="link link7" to="/useRef"
+                                 style={({isActive}) => ({color: isActive ? "mediumPurple" : "white"})}>Use
+                        Ref</NavLink>
+                    </li>
                 </ol>
             </div>
+
         </div>
     </>);
 }

@@ -1,0 +1,38 @@
+.useRefContainer {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.useRefHeading {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.useRefInputField {
+    padding: 1rem .5rem;
+    font-size: 1.1rem;
+    outline: none;
+    background: #353535;
+    border: none;
+    color: #fff;
+    width: 30%;
+}
+
+.useRefInputField::placeholder{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.useRefResetBtn {
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background: #ff3c00;
+    text-transform: uppercase;
+}
