@@ -9,7 +9,7 @@ import { Home, Nav, UseStatePage, UseEffectPage, UseContextPage, UseMemoPage, Us
 function App() {
     return (
         <div className="App">
-            <Router basename="/hooks">
+            <Router>
                 <Nav />
                 <Routes>
                     <Route path="/hooks" element={<Home />} />
