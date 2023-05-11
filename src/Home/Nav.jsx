@@ -11,7 +11,7 @@ const Nav = () => {
             </div>
             <div className="navRightColumn">
                 <ol className="navLinks">
-                    <li className="linkk"><NavLink className="link link1" to="/"
+                    <li className="linkk"><NavLink className="link link1" to="/hooks"
                                                    style={({isActive}) => ({color: isActive ? "mediumPurple" : "white"})}> Home </NavLink>
                     </li>
                     <li><NavLink className="link link2" to="/useState"

@@ -9,10 +9,10 @@ import { Home, Nav, UseStatePage, UseEffectPage, UseContextPage, UseMemoPage, Us
 function App() {
     return (
         <div className="App">
-            <Router>
+            <Router basename="/hooks">
                 <Nav />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/hooks" element={<Home />} />
                     <Route path="/useState" element={<UseStatePage />} />
                     <Route path="/useEffect" element={<UseEffectPage />} />
                     <Route path="/useContext" element={<UseContextPage />} />
