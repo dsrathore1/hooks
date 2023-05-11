@@ -15,6 +15,10 @@ html {
     color: #fff;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .homePageContainer {
     display: flex;
     align-items: center;
@@ -100,7 +104,7 @@ html {
     padding: 1rem 3rem;
     background: #9370DB;
     box-shadow: 12px 12px 52px #7b5eb8,
-    -12px -12px 52px #ab82fe;
+        -12px -12px 52px #ab82fe;
     border: none;
     outline: none;
     border-radius: 8px;
@@ -113,5 +117,5 @@ html {
 .startBtn:active {
     background: #9370DB;
     box-shadow: inset 12px 12px 52px #7b5eb8,
-    inset -12px -12px 52px #ab82fe;
+        inset -12px -12px 52px #ab82fe;
 }
