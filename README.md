@@ -1,4 +1,4 @@
-<h1 align='center'>Hooks And Redux</h1>
+<h1 align='center'>Hooks</h1>
 
 I am start learning about Hooks and Redux, this repo. shows my practice and work on H&R.
 
