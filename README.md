@@ -5,7 +5,7 @@ I am start learning about Hooks, this repo. shows my practice and work on H&R.
 `#Hooks` `#Redux` `#React`
 
 
-###Props :-
+### Props :-
 Before directly jump on to Hooks topic, we firstly learn some basics about Props.
 
 * ABOUT PROPS
