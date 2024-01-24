@@ -1,19 +1,28 @@
-FROM node:alpine
+FROM node:20-alpine3.19 as build
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY package*.json .
 
 RUN npm install
 
 COPY . .
 
-ENV PORT=3000
+VOLUME ./hook-vol:./app
 
-USER node
+RUN npm run build
 
-EXPOSE 3000
 
-HEALTHCHECK --interval=30s --timeout=3s CMD wget -qO- http://localhost:$PORT/ || exit 1
+#! Nginx webserver for production
 
-CMD ["npm", "start"]
+FROM nginx:1-alpine-slim
+
+WORKDIR /usr/share/nginx/html
+
+RUN rm -rf ./*
+
+COPY --from=build /app/build  .
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
