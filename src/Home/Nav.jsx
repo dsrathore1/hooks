@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
@@ -11,7 +10,7 @@ const Nav = () => {
             </div>
             <div className="navRightColumn">
                 <ol className="navLinks">
-                    <li className="linkk"><NavLink className="link link1" to="/hooks"
+                    <li className="linkk"><NavLink className="link link1" to="/"
                         style={({ isActive }) => ({ color: isActive ? "mediumPurple" : "white" })}> Home </NavLink>
                     </li>
                     <li><NavLink className="link link2" to="/useState"

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import "../App.css";
 import CountUp from "react-countup";
 import {motion} from "framer-motion";

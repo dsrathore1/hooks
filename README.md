@@ -1,16 +1,8 @@
-<h1 align='center'>Hooks</h1>
+# React + Vite
 
-I am start learning about Hooks, this repo. shows my practice and work on H&R.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-`#Hooks` `#Redux` `#React`
+Currently, two official plugins are available:
 
-
-### Props :-
-Before directly jump on to Hooks topic, we firstly learn some basics about Props.
-
-* ABOUT PROPS
-  - Props is simply elaborate as "**Properties**".
-  - It showing how components are talk to each other.
-  - It always flow downwards from the Parents component.
-  - There is also the case that you can have default props so that props are set even if a parent component doesn't pass props down.
-  - **Props are immutable(it not changing)**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

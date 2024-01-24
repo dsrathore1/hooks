@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import './App.css';
@@ -12,7 +11,7 @@ function App() {
             <Router>
                 <Nav />
                 <Routes>
-                    <Route path="/hooks" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     <Route path="/useState" element={<UseStatePage />} />
                     <Route path="/useEffect" element={<UseEffectPage />} />
                     <Route path="/useContext" element={<UseContextPage />} />
