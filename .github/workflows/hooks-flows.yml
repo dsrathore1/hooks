@@ -23,8 +23,8 @@ jobs:
       - name: Login to Dockerhub
         uses: docker/login-action@v3
         with:
-          usename: ${{secret.DOCKERHUB_USERNAME}}
-          password: ${{secret.DOCKERHUB_PWD}}
+          usename: ${{secrets.DOCKERHUB_USERNAME}}
+          password: ${{secrets.DOCKERHUB_PWD}}
 
       - name: Build and Push to Dockerhub
         uses: docker/build-push-action@v5
@@ -38,5 +38,5 @@ jobs:
       - name: Deploy to GH Page
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{secret.HOOKS_TOKEN}}
+          github_token: ${{secrets.HOOKS_TOKEN}}
           publish_dir: dist
